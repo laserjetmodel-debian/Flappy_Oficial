@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://d0erasi3ehbq0"]
+
+[ext_resource type="Script" uid="uid://cvudxybtlh5cr" path="res://Flappymove.gd" id="1_p0qdp"]
+[ext_resource type="Texture2D" uid="uid://b11adsnvpecb0" path="res://icon.svg" id="2_re86i"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_v7sg1"]
+size = Vector2(20, 13.368421)
+
+[node name="Flappy" type="CharacterBody2D" unique_id=595471631]
+script = ExtResource("1_p0qdp")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=236820314]
+position = Vector2(0, -0.5)
+scale = Vector2(6.17, 9.5)
+shape = SubResource("RectangleShape2D_v7sg1")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1502896320]
+texture = ExtResource("2_re86i")

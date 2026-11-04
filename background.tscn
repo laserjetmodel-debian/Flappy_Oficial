@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://dgevu1s40vqrc"]
+
+[ext_resource type="Shader" uid="uid://cgwx3fjtdcjxx" path="res://background.gdshader" id="1_i7s6n"]
+[ext_resource type="Texture2D" uid="uid://cencoo1sdo0dr" path="res://58cab525-a7f1-4940-866a-3c2db770e229.jpg" id="1_oabld"]
+[ext_resource type="Script" uid="uid://ngflpmke537h" path="res://texturadeslizante.gd" id="3_xehqc"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_jwra1"]
+shader = ExtResource("1_i7s6n")
+shader_parameter/scrool_speed = 0.05
+
+[node name="Background" type="Node2D" unique_id=2039606494]
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=2009880490]
+material = SubResource("ShaderMaterial_jwra1")
+offset_left = -31.0
+offset_top = -35.0
+offset_right = 5969.0
+offset_bottom = 2965.0
+scale = Vector2(0.21972533, 0.2563304)
+texture = ExtResource("1_oabld")
+stretch_mode = 1
+script = ExtResource("3_xehqc")

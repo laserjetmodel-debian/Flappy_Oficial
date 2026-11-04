@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://bge0bgm7saeem"]
+
+[ext_resource type="PackedScene" uid="uid://cky0lgmctc4ot" path="res://conjunto_cano_1.tscn" id="1_ibimk"]
+
+[node name="Conjunto cano 3" unique_id=2011073990 instance=ExtResource("1_ibimk")]
+
+[node name="StaticBody2D" parent="." index="0" unique_id=1450450757]
+position = Vector2(0, -40)
+
+[node name="StaticBody2D2" parent="." index="1" unique_id=1404096521]
+position = Vector2(0, 127.43)
