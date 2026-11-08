@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="Flappy projeto tent 4"
+run/main_scene="uid://bd6xb1wwckic6"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 config/icon="res://icon.svg"
 

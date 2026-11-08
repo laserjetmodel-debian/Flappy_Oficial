@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://bd6xb1wwckic6"]
+
+[ext_resource type="PackedScene" uid="uid://d4nm7sc3eue1n" path="res://Game.tscn" id="1_xl8q2"]
+
+[node name="Zona de teste" unique_id=1390250106 instance=ExtResource("1_xl8q2")]

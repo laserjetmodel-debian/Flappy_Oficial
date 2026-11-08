@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://dhfwl3dmroeps"]
+
+[ext_resource type="PackedScene" uid="uid://cky0lgmctc4ot" path="res://conjunto_cano_1.tscn" id="1_213jw"]
+
+[node name="Conjunto cano 1" unique_id=2011073990 instance=ExtResource("1_213jw")]

@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://cm173vakvbslf"]
+
+[ext_resource type="PackedScene" uid="uid://d0erasi3ehbq0" path="res://flappy.tscn" id="1_3ytwf"]
+
+[node name="Flappy" unique_id=595471631 instance=ExtResource("1_3ytwf")]
